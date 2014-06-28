@@ -1,8 +1,22 @@
-The eeg-mouse is a project to attempt to control an on-screen pointer with eeg signals.
+The ads1298-breakout project is a break-out board for the Texas Instruments
+ADS1298 chip.
 
-This has potential application for adaptive equipment.
+Project goals include:
+ * suitable for assembly by those with minimal surface mount experience
+ * anti-aliasing filters for out-of-the-box use
 
-http://openelectronicslab.github.io/eeg-mouse/
+The board does not include electrical isolation, thus must not be used
+with human subjects if connected to a computer connected to wall power.
+External isolation can be added, see:
+http://github.com/kms15/digital-isolator
+(Alternatively, a laptop running from battery may be okay).
 
-Notes and data can be found at:
-https://github.com/OpenElectronicsLab/eeg-mouse-notes
+The board should work with the ADS1294, ADS1296, and ADS1299 chips, also.
+
+The digital power (DVDD) and digital I/O for the ADS129x chips are 3 volts,
+so if used with a 5 volt controler like an Arduino Uno, level shifting is
+required. For example:
+https://github.com/OpenElectronicsLab/level-shifter
+
+This project was extracted from the eeg-mouse project:
+http://openelectronicslab.github.io/eeg-mouse
