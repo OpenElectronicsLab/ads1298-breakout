@@ -82,7 +82,7 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=150
-LastNetListRead=eeg-mouse.net
+LastNetListRead=ads1298-breakout.net
 [pcbnew/libraries]
 LibName1=sockets
 LibName2=connect

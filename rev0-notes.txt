@@ -5,7 +5,7 @@ Buffers & Line Drivers Quad Bus Buffer With 3-State Outputs
 http://nl.mouser.com/ProductDetail/Texas-Instruments/SN74LS126ANE4/?qs=sGAEpiMZZMutXGli8Ay4kP28D9wZ8SQIMqpIftnsrsk%3d
 A pair of these are needed, so lets make a stand-alone board with two on it
 Also a capacitor between Vcc (supply voltage) and GRND
-see: https://github.com/ericherman/level-shifter
+see: https://github.com/OpenElectronicsLabs/level-shifter
 
 If the controller remains separate from the ads1298 breakout board, as we have
 with rev 0, LEDs for at power and possibly for each line would be nice to add.

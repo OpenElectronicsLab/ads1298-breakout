@@ -6091,12 +6091,12 @@ Po 66000 55500 400 500 100 900
 De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
-Te "https://github.com/ericherman/eeg-mouse"
+Te "https://github.com/OpenElectronicsLab/ads1298-breakout"
 Po 65000 42500 600 800 120 900
 De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
-Te "eeg-mouse rev 0.1"
+Te "ads1298-breakout rev 0.1"
 Po 63500 48000 600 800 120 900
 De 21 1 0 Normal
 $EndTEXTPCB

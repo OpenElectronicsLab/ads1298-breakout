@@ -30,7 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:ads1298
-LIBS:eeg-mouse-cache
+LIBS:ads1298-breakout-cache
 EELAYER 25  0
 EELAYER END
 $Descr A1 33070 23400
