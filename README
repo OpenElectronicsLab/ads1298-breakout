@@ -18,5 +18,13 @@ so if used with a 5 volt controler like an Arduino Uno, level shifting is
 required. For example:
 https://github.com/OpenElectronicsLab/level-shifter
 
+Important:
+C33-48 and R33-64 are _potential_ values for a high
+pass filter that you may or may not need.  Don't solder
+these in to more than one of the pairs of inputs until
+you're sure this is a good idea.  If you solder a wire
+across the capacitor and leave the two resistors out,
+this bypasses the filter.
+
 This project was extracted from the eeg-mouse project:
 http://openelectronicslab.github.io/eeg-mouse
